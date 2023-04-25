@@ -1,14 +1,20 @@
+
 # NgMonorepo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.2.
 
-## Development server
+## Development server 
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+## Module federation (for microfront-end)
+
+Run `npm run run:all` for dev all projects (host and remotes), and navigate to `http://localhost:4200/`.
+*If you never running this project before, first you must running `npm run build components` for build components library, or u can running `npm run watch components` and a new terminal `npm run run:all`, for edit code of library and reload automatically.
+
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+ Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 
